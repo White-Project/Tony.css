@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>WhiteProject</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="HomePage.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+      
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Register.html">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Login.html">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Personal.html">Personal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Friends.html">Friends</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="APP.html">APP</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav> 
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Friend</span>
+         <script>
+          function openNav() {
+            document.getElementById("myNav").style.display = "block";
+          }
+          
+          function closeNav() {
+            document.getElementById("myNav").style.display = "none";
+          }
+          </script> 
+    </div>
+    <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overplay-content">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="people-nearby">
+                  <!--First Friend-->
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="image/001-woman.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Romer</a></h5>
+                        <p>Student</p>
+                        <p class="text-muted">Boy</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add Friend</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Second Friend-->
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="image/002-boy.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Aiden</a></h5>
+                        <p>Student</p>
+                        <p class="text-muted">Boy</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add Friend</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Third Friend-->
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="image/003-man-2.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">LN</a></h5>
+                        <p>Student</p>
+                        <p class="text-muted">Boy</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add Friend</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Fourth Friend-->
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="image/004-man-8.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Tony</a></h5>
+                        <p>Student</p>
+                        <p class="text-muted">Boy</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add Friend</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Firth Friend-->
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="image/005-man-11.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Jerry</a></h5>
+                        <p>Student</p>
+                        <p class="text-muted">Boy</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add Friend</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!--sixth Friend-->
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="image/006-man-12.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Gogo</a></h5>
+                        <p>Teacher</p>
+                        <p class="text-muted">Boy</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add Friend</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Seventh Freind-->
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="image/007-man-3.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Alex</a></h5>
+                        <p>Student</p>
+                        <p class="text-muted">Boy</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add Friend</button>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+            </div>            
+</body>
+</html>

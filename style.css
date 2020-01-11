@@ -1,0 +1,76 @@
+body{
+    margin-top:0px;
+    background:lightcoral;    
+}
+div.container{
+    float: right;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay p{
+    color: plum;
+}
+
+.text-muted { color: lightskyblue !important; }
+
+.overlay a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 20px;
+  color: Pink;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: palevioletred;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 20px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.people-nearby .nearby-user{
+  padding: 10px 0;
+  border-top: 0px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+img.profile-photo-lg{
+  height: 30px;
+  width: 30px;
+  border-radius: 30%;
+}
